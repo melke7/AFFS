@@ -10,7 +10,7 @@ bashcd ~/ardupilot
 sim_vehicle.py -v ArduPlane -f JSON --model JSON --add-param-file=$HOME/SITL_Models/Gazebo/config/mini_talon_vtail.param --console --map -I0 --out=udp:127.0.0.1:14570 --out=udp:127.0.0.1:14551 --custom-location=38.700853,27.453821,10,0
 ```
 
-**MAVProxy açıldığında:**
+#MAVProxy açıldığında:
 ```
 param set SYSID_THISMAV 1
 param set ARMING_CHECK 0
